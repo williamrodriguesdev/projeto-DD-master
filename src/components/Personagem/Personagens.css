@@ -287,7 +287,7 @@ div.info-classe p {
   border-radius: 20px 0 0 20px;
 }
 .paladino {
-  background-image: url('../src/imagens/imagens-classes/paladino.jpg');
+  background-image: url('./imagens/imagens-classes/paladino.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
