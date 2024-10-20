@@ -1,0 +1,315 @@
+
+.container-personagem {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #2a3033;
+    border-radius: 20px;
+    color: #fff;
+    
+}
+
+.titulo-personagem {
+    font-family: "MedievalSharp", cursive;
+    font-size: 35px;
+}
+
+.container-personagem p {
+    margin: 30px 0;
+    font-size: 23px;
+    text-align: center;
+}
+
+.container-personagem h2 {
+    font-size: 30px;
+}
+
+.cards-container {
+    background-color: #3d4346;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap; /* Cards quebram linha se faltar espaço */
+  }
+  
+  .card-flip {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px; /* Necessário para o efeito 3D */
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(180deg);
+  }
+  
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  .card-back {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../src/imagens/cidade-humana.jpg);
+    background-size: cover;
+  }
+  .card-back p {
+    margin: 10px 0;
+    color: black;
+    background-color: #ffffff5e;
+    font-weight: 700;
+
+  }
+  .card-back span{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff5e;
+    
+  }
+  .card-back {
+    background-color: #28a745;
+    transform: rotateY(180deg);
+  }
+  
+
+  .card-front.humano {
+    background-image: url('../src/imagens/imagens-cardFront/humano.jpg');
+    background-size: cover;
+  }
+  .card-front.elfo {
+    background-image: url('../src/imagens/imagens-cardFront/elfo.jpg');
+    background-size: cover;
+  }
+  .card-front.anao {
+    background-image: url('../src/imagens/imagens-cardFront/anao.jpg');
+    background-size: cover;
+  }
+  .card-front.halfling {
+    background-image: url('../src/imagens/imagens-cardFront/halfling.jpg');
+    background-size: cover;
+  }
+  .card-front.gnomo {
+    background-image: url('../src/imagens/imagens-cardFront/gnomo.jpg');
+    background-size: cover;
+  }
+  .card-front.meio-elfo {
+    background-image: url('../src/imagens/imagens-cardFront/meio-elfo.jpg');
+    background-size: cover;
+  }
+  .card-front.meio-orc {
+    background-image: url('../src/imagens/imagens-cardFront/meio-orc.jpg');
+    background-size: cover;
+  }
+  .card-front.draconato {
+    background-image: url('../src/imagens/imagens-cardFront/draconato.jpg');
+    background-size: cover;
+  }
+  .card-front.tiefling {
+    background-image: url('../src/imagens/imagens-cardFront/tiefling.jpg');
+    background-size: cover;
+    
+  }
+  
+ 
+  .card-front h2 {
+    margin-bottom: 20px;
+    font-family: "MedievalSharp", cursive;
+  }
+
+
+  .card-back.cidade-humana {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-humana.jpg);
+    background-size: cover;
+  }
+  .card-back.cidade-elfica {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-elfica.jpg);
+    background-size: cover;
+  }
+  .card-back.cidade-ana {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-ana.jpg);
+    background-size: cover;
+  }
+
+  .card-back.cidade-halfling {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-halfling.jpg);
+    background-size: cover;
+  }
+
+  .card-back.cidade-gnomo{
+    background-image: url(../src/imagens/imagens-cardBack/cidade-gnomo.jpg);
+    background-size: cover;
+  }
+
+  .card-back.cidade-meio-elfo {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-meio-elfo.jpg);
+    background-size: cover;
+  }
+
+  .card-back.cidade-meio-orc {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-meio-orc.jpg);
+    background-size: cover;
+  }
+
+  .card-back.cidade-draconato {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-draconato.jpg);
+    background-size: cover;
+  }
+  .card-back.cidade-tiefling {
+    background-image: url(../src/imagens/imagens-cardBack/cidade-tiefling.jpg);
+    background-size: cover;
+  }
+
+/*Classes */
+
+div.container-classe {
+  background-color: #2a3033;
+  padding: 40px 0;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+}
+div.resumo-classe p {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+h1.titulo-container-classe {
+  text-align: center;
+  font-size: 35px;
+  font-family: "MedievalSharp", cursive;
+  
+}
+
+
+div.card-classe {
+  background-color: #3d4346;
+  border-radius: 20px;
+  display: flex;
+  max-width: 600px;
+  height: 400px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  
+
+}
+div.imagem-classe {
+  min-width: 200px;
+  
+}
+
+
+div.info-classe {
+  padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+h1.titulo-classe {
+  font-size: 30px;
+  font-family: "MedievalSharp", cursive;
+  
+}
+
+div.info-classe h4 {
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+div.info-classe p {
+  font-size: 18px;
+  text-align: center;
+  margin:5px 10px;
+}
+
+.barbaro {
+  background-image: url('../src/imagens/imagens-classes/barbaro.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.bardo {
+  background-image: url('../src/imagens/imagens-classes/bardo.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.clerigo {
+  background-image: url('../src/imagens/imagens-classes/clerigo.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+  
+}
+.druida {
+  background-image: url('../src/imagens/imagens-classes/druida.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.guerreiro {
+  background-image: url('../src/imagens/imagens-classes/guerreiro.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.ladino {
+  background-image: url('../src/imagens/imagens-classes/ladino.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.mago {
+  background-image: url('../src/imagens/imagens-classes/mago.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.monge {
+  background-image: url('../src/imagens/imagens-classes/monge.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.paladino {
+  background-image: url('../src/imagens/imagens-classes/paladino.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.patrulheiro {
+  background-image: url('../src/imagens/imagens-classes/patrulheiro.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.feiticeiro {
+  background-image: url('../src/imagens/imagens-classes/feiticeiro.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+.bruxo {
+  background-image: url('../src/imagens/imagens-classes/bruxo.jpg');
+  background-size: cover;
+  border-radius: 20px 0 0 20px;
+}
+
+
+
+  
+  
+
+  

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+/* Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111219;
+  
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url('imagens/hero-image.jpg');
+  background-position: top; 
+  font-family: "MedievalSharp", cursive;
+  
+}
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  /*background-color: #24282ce9;*/
+  
+  
+ 
+}
+h1.logo {
+  font-size: 50px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+ul.nav-list {
+  display: flex;
+  gap: 50px;
+  margin-right: 80px ;
+}
+
+li.nav-item {
+  font-size: 25px;
+  color: #f3f3f3;
+}
+
+div.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+h1.titulo-hero {
+  color: #682e34;
+  font-size: 120px ;
+  font-weight: bold;
+  margin-top: 100px;
+  text-shadow: 5px 5px #f3f7f7;
+
+
+}
+
+.btn-hero {
+  margin-top: 30px;
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+/* Container Cards */
+
+
+section.container {
+  display: flex;
+  width: 100%;
+  background-color: #2a3033;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: #f9ffff;
+  font-family: "MedievalSharp", cursive;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+div.card {
+  margin-top: 40px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  
+}
+div.container-img {
+  margin-top: 20px;
+  width: 250px;
+  
+  
+}
+div.container-img img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+h4.titulo-card {
+  text-align: center;
+  font-size: 30px;
+ 
+  
+}
+p.info-card {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 17px;
+  height: 70px;
+  width: 250px;
+}
+.btn-card {
+ padding: 10px;
+ font-size: 22px;
+ font-weight: bold;
+ border-radius: 20px;
+ background-image: radial-gradient(#675f6a,  #4c3d50);
+ color: #fff;
+ margin-bottom: 20px;
+ transition: 0.3s ease-in-out;
+
+}
+.btn-card:hover {
+ background-color: #fff;
+ color: #111219;
+}
+
+/* Conteudo Principál */
+
+main.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+section.container-conteudos {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111219;
+  
+}
+div.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  
+}
+div.conteudo-texto {
+  margin-right: 50px ;
+
+}
+
+
+div.conteudo-texto img {
+  max-width: 600px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 20px;
+  
+  
+}
+h1.titulo-conteudo-texto {
+  font-size: 40px;
+}
+.conteudo-texto p {
+  margin: 40px 0;
+  font-size: 20px;
+  text-align: justify;
+
+}
+div.glossario {
+  padding: 40px;
+  text-align: justify;
+}
+
+div.glossario h1 {
+  font-size: 35px;
+  
+}
+div.glossario span {
+  font-weight: bold;
+
+}
+
+div.glossario ul {
+  margin-top: 40px;
+  list-style-type: disc;
+}
+
+div.glossario li {
+  font-size: 20px;
+  
+}
+div.glossario img {
+  width: 500px;
+  float: right;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
