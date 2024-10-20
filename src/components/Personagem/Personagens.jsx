@@ -13,12 +13,12 @@ const Personagens = () => {
             <h2>Raças Básicas</h2>
             <p>Na 5ª edição de Dungeons & Dragons (D&D), há uma ampla variedade de raças jogáveis, cada uma com características únicas. Aqui estão as principais raças disponíveis no Livro do Jogador</p>
 
-            <div class="cards-container">
-              <div class="card-flip">
-                <div class="card-front humano">
+            <div className="cards-container">
+              <div className="card-flip">
+                <div className="card-front humano">
                   <h2>Humano</h2>
                 </div>
-               <div class="card-back cidade-humana">
+               <div className="card-back cidade-humana">
                <span>Características:</span>
                   <p>Extremamente versáteis, com bônus equilibrados em todas as habilidades.
                   </p>
@@ -27,11 +27,11 @@ const Personagens = () => {
               </div>
             </div>
 
-            <div class="card-flip">
-              <div class="card-front elfo">
+            <div className="card-flip">
+              <div className="card-front elfo">
                 <h2>Elfo</h2>
               </div>
-              <div class="card-back cidade-elfica">
+              <div className="card-back cidade-elfica">
                 <span>Características:</span>
                 <p>Ágeis, inteligentes e perceptivos. Vivem muito e têm uma forte conexão com a natureza e magia.
                 </p>
@@ -40,22 +40,22 @@ const Personagens = () => {
               </div>
             </div>
 
-            <div class="card-flip">
-              <div class="card-front anao">
+            <div className="card-flip">
+              <div className="card-front anao">
                 <h2>Anão</h2>
               </div>
-              <div class="card-back cidade-ana">
+              <div className="card-back cidade-ana">
                 <span>Características:</span>
                 <p>Fortes e resistentes, com uma ligação profunda às montanhas e à terra.</p>
                 <span>Destaque:</span>
                 <p>Ótimos para guerreiros e clérigos, com alta durabilidade em combate.</p>
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front halfling">
+            <div className="card-flip">
+              <div className="card-front halfling">
                 <h2>Halfling</h2>
               </div>
-              <div class="card-back cidade-halfling">
+              <div className="card-back cidade-halfling">
               <span>Características:</span>
                 <p>Pequenos, furtivos e sortudos, conhecidos por sua resiliência e ousadia.</p>
                 <span>Destque:</span>
@@ -63,55 +63,55 @@ const Personagens = () => {
               
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front gnomo">
+            <div className="card-flip">
+              <div className="card-front gnomo">
                 <h2>Gnomo</h2>
               </div>
-              <div class="card-back cidade-gnomo">
+              <div className="card-back cidade-gnomo">
                 <span>Características:</span>
                 <p>Inteligentes e curiosos, com uma afinidade por magia e engenhosidade.</p>
                 <span>Destaque:</span>
                 <p>Excelente para magos e inventores, com grande inteligência.</p>
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front meio-elfo">
+            <div className="card-flip">
+              <div className="card-front meio-elfo">
                 <h2>Meio-Elfo</h2>
               </div>
-              <div class="card-back cidade-meio-elfo">
+              <div className="card-back cidade-meio-elfo">
                 <span>Características:</span>
                 <p> Mistura de humano e elfo, combinando a versatilidade humana com a graça dos elfos.</p>
                 <span>Destaque:</span>
                 <p>Altamente carismáticos e adaptáveis, perfeitos para bardos, feiticeiros ou personagens sociais.</p>
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front meio-orc">
+            <div className="card-flip">
+              <div className="card-front meio-orc">
                 <h2>Meio-Orc</h2>
               </div>
-              <div class="card-back cidade-meio-orc">
+              <div className="card-back cidade-meio-orc">
                 <span>Características:</span>
                 <p>Fortes e ferozes, com uma natureza agressiva herdada de seus ancestrais orcs.</p>
                 <span>Destaque:</span>
                 <p> Ótimos para guerreiros e bárbaros, com bônus de força e habilidades de combate que os tornam sobreviventes natos.</p>
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front draconato">
+            <div className="card-flip">
+              <div className="card-front draconato">
                 <h2>Draconato</h2>
               </div>
-              <div class="card-back cidade-draconato">
+              <div className="card-back cidade-draconato">
                 <span>Características:</span>
                 <p>Descendentes de dragões, com aparência imponente e a habilidade de soprar energia elemental (fogo, gelo, ácido, etc.).</p>
                 <span>Destaque:</span>
                 <p>Forte e carismático, ideal para guerreiros ou paladinos.</p>
              </div>
             </div>
-            <div class="card-flip">
-              <div class="card-front tiefling">
+            <div className="card-flip">
+              <div className="card-front tiefling">
                 <h2>Tiefling</h2>
               </div>
-              <div class="card-back cidade-tiefling">
+              <div className="card-back cidade-tiefling">
                 <span>Características:</span>
                 <p> Descendentes de pactos demoníacos, com uma aparência infernal e habilidades mágicas.</p>
                 <span>Destaque:</span>
