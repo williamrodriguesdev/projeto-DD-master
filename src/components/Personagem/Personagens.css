@@ -69,8 +69,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../src/imagens/cidade-humana.jpg);
-    background-size: cover;
+    
   }
   .card-back p {
     margin: 10px 0;
@@ -93,39 +92,39 @@
   
 
   .card-front.humano {
-    background-image: url('../src/imagens/imagens-cardFront/humano.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/humano.jpg');
     background-size: cover;
   }
   .card-front.elfo {
-    background-image: url('../src/imagens/imagens-cardFront/elfo.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/elfo.jpg');
     background-size: cover;
   }
   .card-front.anao {
-    background-image: url('../src/imagens/imagens-cardFront/anao.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/anao.jpg');
     background-size: cover;
   }
   .card-front.halfling {
-    background-image: url('../src/imagens/imagens-cardFront/halfling.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/halfling.jpg');
     background-size: cover;
   }
   .card-front.gnomo {
-    background-image: url('../src/imagens/imagens-cardFront/gnomo.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/gnomo.jpg');
     background-size: cover;
   }
   .card-front.meio-elfo {
-    background-image: url('../src/imagens/imagens-cardFront/meio-elfo.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/meio-elfo.jpg');
     background-size: cover;
   }
   .card-front.meio-orc {
-    background-image: url('../src/imagens/imagens-cardFront/meio-orc.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/meio-orc.jpg');
     background-size: cover;
   }
   .card-front.draconato {
-    background-image: url('../src/imagens/imagens-cardFront/draconato.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/draconato.jpg');
     background-size: cover;
   }
   .card-front.tiefling {
-    background-image: url('../src/imagens/imagens-cardFront/tiefling.jpg');
+    background-image: url('./src/imagens/imagens-cardFront/tiefling.jpg');
     background-size: cover;
     
   }
@@ -138,44 +137,44 @@
 
 
   .card-back.cidade-humana {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-humana.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-humana.jpg);
     background-size: cover;
   }
   .card-back.cidade-elfica {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-elfica.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-elfica.jpg);
     background-size: cover;
   }
   .card-back.cidade-ana {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-ana.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-ana.jpg);
     background-size: cover;
   }
 
   .card-back.cidade-halfling {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-halfling.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-halfling.jpg);
     background-size: cover;
   }
 
   .card-back.cidade-gnomo{
-    background-image: url(../src/imagens/imagens-cardBack/cidade-gnomo.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-gnomo.jpg);
     background-size: cover;
   }
 
   .card-back.cidade-meio-elfo {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-meio-elfo.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-meio-elfo.jpg);
     background-size: cover;
   }
 
   .card-back.cidade-meio-orc {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-meio-orc.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-meio-orc.jpg);
     background-size: cover;
   }
 
   .card-back.cidade-draconato {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-draconato.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-draconato.jpg);
     background-size: cover;
   }
   .card-back.cidade-tiefling {
-    background-image: url(../src/imagens/imagens-cardBack/cidade-tiefling.jpg);
+    background-image: url(./src/imagens/imagens-cardBack/cidade-tiefling.jpg);
     background-size: cover;
   }
 
@@ -246,63 +245,63 @@ div.info-classe p {
 }
 
 .barbaro {
-  background-image: url('../src/imagens/imagens-classes/barbaro.jpg');
+  background-image: url('./src/imagens/imagens-classes/barbaro.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .bardo {
-  background-image: url('../src/imagens/imagens-classes/bardo.jpg');
+  background-image: url('./src/imagens/imagens-classes/bardo.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .clerigo {
-  background-image: url('../src/imagens/imagens-classes/clerigo.jpg');
+  background-image: url('./src/imagens/imagens-classes/clerigo.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
   
 }
 .druida {
-  background-image: url('../src/imagens/imagens-classes/druida.jpg');
+  background-image: url('./src/imagens/imagens-classes/druida.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .guerreiro {
-  background-image: url('../src/imagens/imagens-classes/guerreiro.jpg');
+  background-image: url('./src/imagens/imagens-classes/guerreiro.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .ladino {
-  background-image: url('../src/imagens/imagens-classes/ladino.jpg');
+  background-image: url('./src/imagens/imagens-classes/ladino.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .mago {
-  background-image: url('../src/imagens/imagens-classes/mago.jpg');
+  background-image: url('./src/imagens/imagens-classes/mago.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .monge {
-  background-image: url('../src/imagens/imagens-classes/monge.jpg');
+  background-image: url('./src/imagens/imagens-classes/monge.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .paladino {
-  background-image: url('./imagens/imagens-classes/paladino.jpg');
+  background-image: url('./src/imagens/imagens-classes/paladino.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .patrulheiro {
-  background-image: url('../src/imagens/imagens-classes/patrulheiro.jpg');
+  background-image: url('./src/imagens/imagens-classes/patrulheiro.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .feiticeiro {
-  background-image: url('../src/imagens/imagens-classes/feiticeiro.jpg');
+  background-image: url('./src/imagens/imagens-classes/feiticeiro.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .bruxo {
-  background-image: url('../src/imagens/imagens-classes/bruxo.jpg');
+  background-image: url('./src/imagens/imagens-classes/bruxo.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }

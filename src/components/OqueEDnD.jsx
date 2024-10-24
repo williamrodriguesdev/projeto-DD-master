@@ -6,7 +6,7 @@ const OqueEDnD = () => {
            <div className="container">
                 <div className="conteudo-texto">
                     <h1 className="titulo-conteudo-texto">O que é D&D?</h1>
-                    <img src="./src/imagens/grupo.jpg" alt="" />
+                    <img src="..//" alt="Imagem de um grupo de aventureiros" />
                     <p>Dungeons & Dragons (D&D) é um jogo de RPG (role-playing game) focado em contar histórias e viver aventuras em um mundo fantástico. Nele, os jogadores assumem o papel de heróis ou aventureiros e, juntos, exploram reinos mágicos, enfrentam monstros e resolvem mistérios. O diferencial de D&D está na liberdade criativa: não há limites para onde a história pode ir, e cada jogo pode ser completamente único, dependendo das decisões dos jogadores.</p>
 
                     <p>Ao invés de competir, os jogadores trabalham em equipe para superar desafios, interagindo tanto entre si quanto com o mundo ao redor, em um ambiente de narrativa colaborativa. As aventuras podem se passar em cidades lendárias, florestas misteriosas, masmorras perigosas ou em qualquer cenário que a imaginação permita.</p>
