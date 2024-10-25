@@ -92,7 +92,7 @@
   
 
   .card-front.humano {
-    background-image: url('./imagens/imagens-cardFront/humano.jpg');
+    background-image: url('https://i.pinimg.com/564x/72/74/7d/72747d9f9abe605baa2898be14340845.jpg');
     background-size: cover;
   }
   .card-front.elfo {
