@@ -96,35 +96,35 @@
     background-size: cover;
   }
   .card-front.elfo {
-    background-image: url('/imagens/imagens-cardFront/elfo.jpg');
+    background-image: url('https://i.pinimg.com/564x/fa/4c/75/fa4c75b1a59eb0d864e6627fcbb50232.jpg');
     background-size: cover;
   }
   .card-front.anao {
-    background-image: url('/imagens/imagens-cardFront/anao.jpg');
+    background-image: url('https://i.pinimg.com/736x/06/da/54/06da54ba145b0850466789facdf26226.jpg');
     background-size: cover;
   }
   .card-front.halfling {
-    background-image: url('/imagens/imagens-cardFront/halfling.jpg');
+    background-image: url('https://i.pinimg.com/736x/c5/ec/d4/c5ecd463a11b1f35d8e90708dd03fe0e.jpg');
     background-size: cover;
   }
   .card-front.gnomo {
-    background-image: url('/imagens/imagens-cardFront/gnomo.jpg');
+    background-image: url('https://i.pinimg.com/736x/5d/d5/eb/5dd5ebfecfe14808b44c0c4be26afdae.jpg');
     background-size: cover;
   }
   .card-front.meio-elfo {
-    background-image: url('/imagens/imagens-cardFront/meio-elfo.jpg');
+    background-image: url('https://i.pinimg.com/736x/98/76/3b/98763b3445185b7b294fc7245b5e3ed0.jpg');
     background-size: cover;
   }
   .card-front.meio-orc {
-    background-image: url('/imagens/imagens-cardFront/meio-orc.jpg');
+    background-image: url('https://i.pinimg.com/564x/b1/54/a0/b154a0d9a1cbc5c699431e16670f873e.jpg');
     background-size: cover;
   }
   .card-front.draconato {
-    background-image: url('/imagens/imagens-cardFront/draconato.jpg');
+    background-image: url('https://i.pinimg.com/736x/22/a9/4c/22a94cee7049890fa83125147daa58c1.jpg');
     background-size: cover;
   }
   .card-front.tiefling {
-    background-image: url('/imagens/imagens-cardFront/tiefling.jpg');
+    background-image: url('https://i.pinimg.com/736x/50/ca/3e/50ca3e39570de30f8c1af89e161c8f7e.jpg');
     background-size: cover;
     
   }
@@ -137,44 +137,44 @@
 
 
   .card-back.cidade-humana {
-    background-image: url('/imagens/imagens-cardBack/cidade-humana.jpg');
+    background-image: url('https://i.pinimg.com/736x/45/3f/e7/453fe75ae0c2552ae3e14c84be99a1dd.jpg');
     background-size: cover;
   }
   .card-back.cidade-elfica {
-    background-image: url('/imagens/imagens-cardBack/cidade-elfica.jpg');
+    background-image: url('https://i.pinimg.com/736x/fb/a8/3b/fba83b1db0133f9475bb47dac32f9ac6.jpg');
     background-size: cover;
   }
   .card-back.cidade-ana {
-    background-image: url('/imagens/imagens-cardBack/cidade-ana.jpg');
+    background-image: url('https://i.pinimg.com/564x/c2/f7/be/c2f7be43f7e1efb07f606ae7113504b1.jpg');
     background-size: cover;
   }
 
   .card-back.cidade-halfling {
-    background-image: url('/imagens/imagens-cardBack/cidade-halfling.jpg');
+    background-image: url('https://i.pinimg.com/736x/fc/84/f8/fc84f8b038e7be4b7acc219d4a65ee2a.jpg');
     background-size: cover;
   }
 
   .card-back.cidade-gnomo{
-    background-image: url('/imagens/imagens-cardBack/cidade-gnomo.jpg');
+    background-image: url('https://i.pinimg.com/736x/07/c3/8c/07c38c3eda16d7856d94a2320a7c2f82.jpg');
     background-size: cover;
   }
 
   .card-back.cidade-meio-elfo {
-    background-image: url('/imagens/imagens-cardBack/cidade-meio-elfo.jpg');
+    background-image: url('https://i.pinimg.com/564x/7d/9d/aa/7d9daa1537921cedd64e6ba84058aa18.jpg');
     background-size: cover;
   }
 
   .card-back.cidade-meio-orc {
-    background-image: url('/imagens/imagens-cardBack/cidade-meio-orc.jpg');
+    background-image: url('https://i.pinimg.com/564x/0c/55/fa/0c55faabc123987e8d5ca7c4ff08cd73.jpg');
     background-size: cover;
   }
 
   .card-back.cidade-draconato {
-    background-image: url('/imagens/imagens-cardBack/cidade-draconato.jpg');
+    background-image: url('https://i.pinimg.com/564x/a6/65/1a/a6651a292412a82630f7b27713536b74.jpg');
     background-size: cover;
   }
   .card-back.cidade-tiefling {
-    background-image: url('/imagens/imagens-cardBack/cidade-tiefling.jpg');
+    background-image: url('https://i.pinimg.com/564x/df/02/64/df02643b24d9b52aa1cc505e5c1617f8.jpg');
     background-size: cover;
   }
 
@@ -245,63 +245,63 @@ div.info-classe p {
 }
 
 .barbaro {
-  background-image: u/imagens/imagens-classes/barbaro.jpg');
+  background-image: url('https://i.pinimg.com/564x/24/2a/53/242a53a87caf6aeb94edd04eea6d57b1.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .bardo {
-  background-image: url('/imagens/imagens-classes/bardo.jpg');
+  background-image: url('https://i.pinimg.com/736x/b6/95/b5/b695b516d5574197d274bdc81c245de7.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .clerigo {
-  background-image: url('/imagens/imagens-classes/clerigo.jpg');
+  background-image: url('https://i.pinimg.com/736x/b6/d5/fa/b6d5fa54466508acdab3c73db94b224f.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
   
 }
 .druida {
-  background-image: url('/imagens/imagens-classes/druida.jpg');
+  background-image: url('https://i.pinimg.com/736x/ef/fb/5f/effb5fd1c75b8783aeb847c081868dd1.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .guerreiro {
-  background-image: url('/imagens/imagens-classes/guerreiro.jpg');
+  background-image: url('https://i.pinimg.com/736x/a8/b8/51/a8b8514c55e88dc759cc9aaa126a3ef2.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .ladino {
-  background-image: url('/imagens/imagens-classes/ladino.jpg');
+  background-image: url('https://i.pinimg.com/736x/37/42/00/374200f3cd2dbab0e07bdb1c752226cf.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .mago {
-  background-image: url('/imagens/imagens-classes/mago.jpg');
+  background-image: url('https://i.pinimg.com/736x/fe/7d/09/fe7d099384b932bf13c7d32ccd5b60cb.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .monge {
-  background-image: url('/imagens/imagens-classes/monge.jpg');
+  background-image: url('https://i.pinimg.com/736x/55/4a/89/554a8999ceb42a8c733fb0ed6cf35db9.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .paladino {
-  background-image: url('/imagens/imagens-classes/paladino.jpg');
+  background-image: url('https://i.pinimg.com/736x/01/3e/ba/013ebab5eaddb70cf0ae1e0ad002c7d8.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .patrulheiro {
-  background-image: url('/imagens/imagens-classes/patrulheiro.jpg');
+  background-image: url('https://i.pinimg.com/736x/4c/ce/04/4cce043fe0b7c066fe7bdba3550b1368.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .feiticeiro {
-  background-image: url('/imagens/imagens-classes/feiticeiro.jpg');
+  background-image: url('https://i.pinimg.com/736x/cf/75/ce/cf75ceda2bfac354ff824e726c9ba93a.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
 .bruxo {
-  background-image: url('/imagens/imagens-classes/bruxo.jpg');
+  background-image: url('https://i.pinimg.com/564x/38/5f/23/385f23278d8348b70482bd8f790b321b.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
 }
