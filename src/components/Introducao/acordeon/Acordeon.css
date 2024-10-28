@@ -1,0 +1,32 @@
+.esconder {
+    display: none;
+}
+div.glossario {
+    padding: 40px;
+    text-align: justify;
+  }
+  
+  div.glossario h1 {
+    font-size: 35px;
+    
+  }
+  div.glossario span {
+    font-weight: bold;
+  
+  }
+  
+  div.glossario ul {
+    margin-top: 40px;
+    list-style-type: disc;
+  }
+  
+  div.glossario li {
+    font-size: 20px;
+    
+  }
+  .imagem-glossario {
+    max-width: 300px;
+    float: right;
+    border-radius: 20px;
+    margin: 20px;
+  }

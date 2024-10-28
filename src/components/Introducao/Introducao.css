@@ -5,72 +5,36 @@ main.main {
     
   }
   
-  section.container-conteudos {
-    margin-top: 40px;
-    width: 100%;
-    background-color: #fff;
+
+  div.container-introducao {
+    background-image: url('https://i.pinimg.com/564x/e4/3d/c6/e43dc6f02f6c114cb2a0f48d7bf123a8.jpg');
+    margin: 40px;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #111219;
-    
-  }
-  div.container {
-    display: flex;
-    justify-content: space-between;
     padding: 40px;
     
   }
-  div.conteudo-texto {
-    margin-right: 50px ;
-  
-  }
-  
+ 
   
   div.conteudo-texto img {
-    max-width: 600px;
+    max-width: 400px;
     float: right;
-    margin-left: 20px;
-    border-radius: 20px;
+    margin: 20px;
+    border-radius: 10px;
     
     
   }
   h1.titulo-conteudo-texto {
     font-size: 40px;
+    text-align: center;
   }
-  .conteudo-texto p {
-    margin: 40px 0;
-    font-size: 20px;
+  div.conteudo-texto p {
+    margin: 40px 20px;
+    font-size: 24px;
     text-align: justify;
   
   }
-  div.glossario {
-    padding: 40px;
-    text-align: justify;
-  }
-  
-  div.glossario h1 {
-    font-size: 35px;
-    
-  }
-  div.glossario span {
+  .destaque {
     font-weight: bold;
-  
   }
   
-  div.glossario ul {
-    margin-top: 40px;
-    list-style-type: disc;
-  }
-  
-  div.glossario li {
-    font-size: 20px;
-    
-  }
-  div.glossario img {
-    width: 500px;
-    float: right;
-    border-radius: 20px;
-    margin-left: 40px;
-  }
+
