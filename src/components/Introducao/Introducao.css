@@ -1,0 +1,76 @@
+main.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  section.container-conteudos {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111219;
+    
+  }
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+  }
+  div.conteudo-texto {
+    margin-right: 50px ;
+  
+  }
+  
+  
+  div.conteudo-texto img {
+    max-width: 600px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+    
+  }
+  h1.titulo-conteudo-texto {
+    font-size: 40px;
+  }
+  .conteudo-texto p {
+    margin: 40px 0;
+    font-size: 20px;
+    text-align: justify;
+  
+  }
+  div.glossario {
+    padding: 40px;
+    text-align: justify;
+  }
+  
+  div.glossario h1 {
+    font-size: 35px;
+    
+  }
+  div.glossario span {
+    font-weight: bold;
+  
+  }
+  
+  div.glossario ul {
+    margin-top: 40px;
+    list-style-type: disc;
+  }
+  
+  div.glossario li {
+    font-size: 20px;
+    
+  }
+  div.glossario img {
+    width: 500px;
+    float: right;
+    border-radius: 20px;
+    margin-left: 40px;
+  }

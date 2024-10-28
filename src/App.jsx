@@ -3,11 +3,11 @@
 import React from 'react';
 import './App.css'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Header from './components/Header'
-import OqueEDnD from './components/OqueEDnD';
+import Header from './components/Header/Header'
+import Introducao from './components/Introducao/introducao';
 import Personagens from './components/Personagem/Personagens';
-import Regras from './components/Regras';
-import Mestre from './components/Mestre';
+import Regras from './components/Regras/Regras';
+import Mestre from './components/Mestre/Mestre';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
               </div>
             
               <p className='info-card'>Descubra o mundo épico de Dungeons & Dragons! </p>
-              <Link to="/OqueEDnD" className='btn-card' href="">Ver Mais</Link>
+              <Link to="/Introducao" className='btn-card' href="">Ver Mais</Link>
             </div>
 
             <div className='card'>
@@ -69,7 +69,7 @@ function App() {
 
            <section className='container-conteudos'>
            <Routes>
-              <Route path='/OqueEDnD' element={<OqueEDnD />} />
+              <Route path='/Introducao' element={<Introducao />} />
               <Route path='/Personagens' element={<Personagens />} />
               <Route path='/Regras' element={<Regras />} />
               <Route path='/MestreDeJogo' element={<Mestre />} />

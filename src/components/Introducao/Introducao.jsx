@@ -1,6 +1,7 @@
 import React from "react";
+import './Introducao.css';
 
-const OqueEDnD = () => {
+const Introducao = () => {
     return(
         <>
            <div className="container">
@@ -66,4 +67,4 @@ const OqueEDnD = () => {
     )
 }
 
-export default OqueEDnD
+export default Introducao

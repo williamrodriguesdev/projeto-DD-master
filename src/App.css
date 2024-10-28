@@ -24,8 +24,8 @@ a {
 header.header {
   height: 100vh;
   width: 100%;
-  background-image: url('imagens/hero-image.jpg');
-  background-position: top; 
+  background-image: url('https://images2.alphacoders.com/129/1296462.jpg');
+  background-size: cover;
   font-family: "MedievalSharp", cursive;
   
 }
@@ -33,10 +33,8 @@ nav.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-  /*background-color: #24282ce9;*/
-  
-  
+  height: 100px;  
+
  
 }
 h1.logo {
@@ -70,7 +68,7 @@ h1.titulo-hero {
   font-size: 120px ;
   font-weight: bold;
   margin-top: 100px;
-  text-shadow: 5px 5px #f3f7f7;
+  text-shadow: 5px 5px #87a352;
 
 
 }
@@ -147,84 +145,7 @@ p.info-card {
  color: #111219;
 }
 
-/* Conteudo Principál */
 
-main.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-section.container-conteudos {
-  margin-top: 40px;
-  width: 100%;
-  background-color: #fff;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #111219;
-  
-}
-div.container {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  
-}
-div.conteudo-texto {
-  margin-right: 50px ;
-
-}
-
-
-div.conteudo-texto img {
-  max-width: 600px;
-  float: right;
-  margin-left: 20px;
-  border-radius: 20px;
-  
-  
-}
-h1.titulo-conteudo-texto {
-  font-size: 40px;
-}
-.conteudo-texto p {
-  margin: 40px 0;
-  font-size: 20px;
-  text-align: justify;
-
-}
-div.glossario {
-  padding: 40px;
-  text-align: justify;
-}
-
-div.glossario h1 {
-  font-size: 35px;
-  
-}
-div.glossario span {
-  font-weight: bold;
-
-}
-
-div.glossario ul {
-  margin-top: 40px;
-  list-style-type: disc;
-}
-
-div.glossario li {
-  font-size: 20px;
-  
-}
-div.glossario img {
-  width: 500px;
-  float: right;
-  border-radius: 20px;
-  margin-left: 40px;
-}
 
 
 
