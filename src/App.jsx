@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Header from './components/Header/Header'
-import Introducao from './components/Introducao/introducao';
+import Introducao from './components/Introducao/Introducao';
 import Personagens from './components/Personagem/Personagens';
 import Regras from './components/Regras/Regras';
 import Mestre from './components/Mestre/Mestre';
