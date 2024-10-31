@@ -8,6 +8,7 @@ import Introducao from './components/Introducao/Introducao';
 import Personagens from './components/Personagem/Personagens';
 import Regras from './components/Regras/Regras';
 import Mestre from './components/Mestre/Mestre';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -80,6 +81,7 @@ function App() {
        
         
       </main>
+        <Footer />
    
       </Router>
      

@@ -1,0 +1,39 @@
+footer.footer {
+    height: 300px;
+    background-color: #2a3033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div.sessao-de-links {
+    display: flex;
+    gap: 40px;
+    margin: auto;
+}
+h4.titulo-footer {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+li a{
+    color: #fff;
+    font-size: 17px;
+}
+li a:hover {
+    text-decoration: underline;
+    
+}
+span.frase-footer {
+    color: #fdf7c0;
+    font-size: 17px;
+}
+span.criado-por {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
