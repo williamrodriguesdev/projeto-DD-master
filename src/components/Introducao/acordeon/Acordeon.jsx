@@ -11,12 +11,15 @@ const Acordeon = () => {
     return (
         <>
             <div className="glossario">
-                <h1>Glossário</h1>
-            <button onClick={toggleContent} id="btn-glossario">
-                Ver mais
-            </button>
+                <div className="titulo-glossario">
+                    <h1>Glossário</h1>
+                                 <img onClick={toggleContent} id="btn-glossario" src="./src/components/Introducao/acordeon/seta-abaixo.png" alt="seta" />
+                </div>
             <div className={`conteudo-glossario ${isOpen ? '' : 'esconder'}`}>
                 <ul>
+                    <div className="banner-glossario">
+
+                    </div>
                     <li><span>Ação</span>: Algo que um personagem faz durante seu turno, como atacar, lançar uma magia, ou usar um item. Normalmente, os personagens têm uma ação principal por turno.</li>
                     <li><span>Atributos</span>: As seis características principais que definem um personagem: Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Eles influenciam as habilidades e as ações de um personagem.</li>
                     <li><span>Armadura</span>: Equipamento que oferece proteção ao personagem, aumentando sua Classe de Armadura (CA), dificultando que os inimigos o acertem em combate.</li>

@@ -37,4 +37,6 @@ span.criado-por {
     width: 100%;
     text-align: center;
     margin-top: auto;
+    font-size: 20px;
+    padding: 5px;
 }
