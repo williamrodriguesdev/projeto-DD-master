@@ -19,6 +19,7 @@ div.glossario {
     display: flex;
     align-items: center;
     gap: 10px;
+
  }
  div.titulo-glossario img {
     width: 30px;

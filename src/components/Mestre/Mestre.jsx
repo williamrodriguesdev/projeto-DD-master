@@ -94,6 +94,16 @@ const Mestre = () => {
                     </a>
                     é uma ferramenta online gratuita para criar mapas de masmorras e interiores. Sua interface é simples, permitindo criar mapas de labirintos, cavernas e castelos em estilo "blueprint".</p></li>
                 </ul>
+                <ul>
+                    <h2>Canais do Youtube</h2>
+                    <li><p><a href="https://www.youtube.com/@XPtoLevel3" target="_blanck">XP To Level 3 </a>: esse canal é super popular entre iniciantes e veteranos, com vídeos cheios de humor e didática. Ele aborda desde as regras básicas até estratégias de criação de personagens, além de compartilhar dicas para Mestres de Jogo. <br />
+                    </p>
+                    <span>Obs: Apesar de ser em inglês conta com excelente tradução automática.</span>
+                    </li>
+                    <li><p><a href="https://www.youtube.com/@JovemNerd/featured" target="_blanck">Nerdcast RPG </a>
+                     : essa série de podcasts e vídeos traz aventuras completas de D&D, com storytelling envolvente e bem-humorado. É uma boa forma de entender a dinâmica de jogo e se inspirar para criar histórias.</p></li>
+                     <li><p><a href="https://www.youtube.com/@GameChinchila" target="_blanck">Game Chinchila</a>: esse canal é focado em conteúdos sobre RPGs de mesa, especialmente Dungeons & Dragons, com um toque humorístico e bem descontraído. Ele aborda temas como dicas para jogadores e Mestres de Jogo, explora a criação de personagens e campanhas, e apresenta análises de regras e conceitos do universo D&D. Com um tom acessível e divertido, o canal é ótimo tanto para iniciantes quanto para quem já tem alguma experiência e quer aprofundar seus conhecimentos de forma leve.</p></li>
+                </ul>
               
             </div>
 

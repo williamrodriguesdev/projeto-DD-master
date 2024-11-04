@@ -57,7 +57,7 @@ const Regras = () => {
             </div>
             <div className="guia-completo">
                 <h2>Guia Completo</h2>
-                <p>Segue abaixo o link disponibiizando o Livro do Jogador onde discorre com detalhes cada aspecto de D&D 5ª edição. </p>
+                <p>Segue abaixo o link disponibilizando o Livro do Jogador onde discorre com detalhes cada aspecto de D&D 5ª edição. </p>
                 <a href="https://ordempendragon.wordpress.com/wp-content/uploads/2017/04/dd-5e-livro-do-jogador-fundo-branco-biblioteca-c3a9lfica.pdf" target="_blanck">Livro do Jogador</a>
             </div>
 

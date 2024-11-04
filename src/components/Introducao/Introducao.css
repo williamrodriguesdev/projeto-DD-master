@@ -27,6 +27,13 @@ main.main {
   h1.titulo-conteudo-texto {
     font-size: 40px;
     text-align: center;
+    background-color: #682334;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "MedievalSharp";
+    
   }
   div.conteudo-texto p {
     margin: 40px 20px;

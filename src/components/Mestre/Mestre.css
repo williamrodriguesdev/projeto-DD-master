@@ -80,7 +80,17 @@ div.ferramentas-mestre a:hover {
 color: #fff;
 }
 div.ferramentas-mestre img {
-    width: 300px;
+    max-width: 300px;
     float: right;
     border-radius: 20px;
+    margin: 10px;
 }
+div.ferramentas-mestre li {
+    margin: 10px 0;
+}
+div.ferramentas-mestre span {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
