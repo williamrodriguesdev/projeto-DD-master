@@ -3,6 +3,7 @@ footer.footer {
     height: 300px;
     background-color: #2a3033;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     
@@ -10,7 +11,7 @@ footer.footer {
 
 div.sessao-de-links {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     margin: auto;
 }
 h4.titulo-footer {

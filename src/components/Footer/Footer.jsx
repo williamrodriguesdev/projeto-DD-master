@@ -22,10 +22,23 @@ const Footer = () => {
                 <li><a href="https://discord.com/invite/guilda-renegados" target="_blanck">Discord: Guilda Renegados</a></li>
 
             </ul>
+            <ul>
+                <h4 className="titulo-footer">Canais Recomendados</h4>
+                <li><a href="https://www.youtube.com/@JovemNerd/featured" target="_blanck">Nerdcast RPG </a></li>
+                <li><a href="https://www.youtube.com/@GameChinchila" target="_blanck">Game Chinchila</a></li>
+                <li><a href="https://www.youtube.com/@XPtoLevel3" target="_blanck">XP to Level 3</a></li>
+            </ul>
+            <ul>
+                <h4 className="titulo-footer">Ferramentas úteis</h4>
+                <li><a href="https://www.dungeonscrawl.com/" target="_blanck">Criador de Mapa: Dungeon Scrawl
+                </a></li>
+                <li><a href="https://www.wonderdraft.net/" target="_blanck">Criador de Mapa: Wonderdraft</a></li>
+                <li><a href="https://inkarnate.com/" target="_blanck">Criador de Mapa: Inkarnate</a></li>
+            </ul>
 
             </div>
 
-            <span className="frase-footer">"Toda aventura começa com um passo."</span>
+            <span className="frase-footer">"Toda grande jornada começa com um passo."</span>
             <span className="criado-por">Criado por William Rodrigues&reg;</span>
         </footer>
 

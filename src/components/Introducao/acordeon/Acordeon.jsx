@@ -11,7 +11,7 @@ const Acordeon = () => {
     return (
         <>
             <div className="glossario">
-                <div className="titulo-glossario">
+            <div className="titulo-glossario">
                     <h1>Glossário</h1>
                                  <img onClick={toggleContent} id="btn-glossario" src="./src/components/Introducao/acordeon/seta-abaixo.png" alt="seta" />
                 </div>
