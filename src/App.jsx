@@ -2,33 +2,32 @@
 
 import React from 'react';
 import './App.css'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, ScrollRestoration } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Introducao from './components/Introducao/Introducao';
 import Personagens from './components/Personagem/Personagens';
 import Regras from './components/Regras/Regras';
 import Mestre from './components/Mestre/Mestre';
 import Footer from './components/Footer/Footer';
+import './responsividade.css'
 
 function App() {
 
   return (
     <>    
     <Router>
+    
       <Header />
-      <main className='main'>
-        
+      <main id='main' className='main'>
           <section className='container'> 
-          
             <div className='card'>
             <h4 className='titulo-card'>Introdução</h4>
-    
               <div className='container-img'>
               <img src="https://i.pinimg.com/564x/24/a0/e4/24a0e4e2529e004b847530e1c0b49570.jpg" alt="Um livro de regras, sobre uma mesa cheia de artefatos." />
               </div>
             
               <p className='info-card'>Descubra o mundo épico de Dungeons & Dragons! </p>
-              <Link to="/Introducao" className='btn-card' href="">Ver Mais</Link>
+              <Link to="/Introducao" className='btn-card'>Ver Mais</Link>
             </div>
 
             <div className='card'>
@@ -76,6 +75,7 @@ function App() {
               <Route path='/MestreDeJogo' element={<Mestre />} />
                 
             </Routes>
+            
             
               </section>    
        

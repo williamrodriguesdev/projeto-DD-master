@@ -1,0 +1,36 @@
+@media (max-width: 768px ) {
+   nav.nav {
+    display: none;
+   }
+   h1.titulo-hero {
+    color: #682e34;
+    font-size: 80px ;
+    text-shadow: 4px 4px #87a352;
+
+  }
+  section.container {
+    display: flex;
+    width: 100%;
+    background-color: #2a3033;
+    flex-wrap: wrap;
+    gap: 0px;
+    color: #f9ffff;
+
+  }
+  p.info-card {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+    height: 55px;
+    width: 250px;
+  }
+ 
+  div.conteudo-texto img {
+    max-width: 300px;
+    float: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+  }
+
+}
