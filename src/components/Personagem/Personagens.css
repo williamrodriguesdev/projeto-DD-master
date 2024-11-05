@@ -210,13 +210,13 @@ div.card-classe {
   border-radius: 20px;
   display: flex;
   max-width: 600px;
-  height: 400px;
+  min-height: 400px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
   
 
 }
 div.imagem-classe {
-  min-width: 200px;
+  min-width: 150px;
   
 }
 
@@ -249,22 +249,29 @@ div.info-classe p {
   background-image: url('https://i.pinimg.com/564x/24/2a/53/242a53a87caf6aeb94edd04eea6d57b1.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+  background-position: center;
 }
 .bardo {
   background-image: url('https://i.pinimg.com/736x/b6/95/b5/b695b516d5574197d274bdc81c245de7.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .clerigo {
   background-image: url('https://i.pinimg.com/736x/b6/d5/fa/b6d5fa54466508acdab3c73db94b224f.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
   
 }
 .druida {
   background-image: url('https://i.pinimg.com/736x/ef/fb/5f/effb5fd1c75b8783aeb847c081868dd1.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .guerreiro {
   background-image: url('https://i.pinimg.com/736x/a8/b8/51/a8b8514c55e88dc759cc9aaa126a3ef2.jpg');
@@ -275,36 +282,50 @@ div.info-classe p {
   background-image: url('https://i.pinimg.com/736x/37/42/00/374200f3cd2dbab0e07bdb1c752226cf.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .mago {
   background-image: url('https://i.pinimg.com/736x/fe/7d/09/fe7d099384b932bf13c7d32ccd5b60cb.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .monge {
   background-image: url('https://i.pinimg.com/736x/55/4a/89/554a8999ceb42a8c733fb0ed6cf35db9.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .paladino {
   background-image: url('https://i.pinimg.com/736x/01/3e/ba/013ebab5eaddb70cf0ae1e0ad002c7d8.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .patrulheiro {
   background-image: url('https://i.pinimg.com/736x/4c/ce/04/4cce043fe0b7c066fe7bdba3550b1368.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .feiticeiro {
   background-image: url('https://i.pinimg.com/736x/cf/75/ce/cf75ceda2bfac354ff824e726c9ba93a.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 .bruxo {
   background-image: url('https://i.pinimg.com/564x/38/5f/23/385f23278d8348b70482bd8f790b321b.jpg');
   background-size: cover;
   border-radius: 20px 0 0 20px;
+    background-position: center;
+
 }
 
 
