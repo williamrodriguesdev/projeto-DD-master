@@ -2,6 +2,7 @@ main.main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
   }
   
@@ -21,8 +22,7 @@ main.main {
     float: right;
     margin: 20px;
     border-radius: 10px;
-    
-    
+     
   }
   h1.titulo-conteudo-texto {
     font-size: 40px;

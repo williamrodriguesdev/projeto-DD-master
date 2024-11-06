@@ -204,7 +204,6 @@ h1.titulo-container-classe {
   
 }
 
-
 div.card-classe {
   background-color: #3d4346;
   border-radius: 20px;
@@ -222,9 +221,11 @@ div.imagem-classe {
 
 div.info-classe {
   padding: 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   min-width: 200px;
 }
 h1.titulo-classe {

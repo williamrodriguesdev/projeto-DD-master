@@ -1,0 +1,95 @@
+@media (max-width:768px) {
+    nav.nav {
+        display: none;
+      }
+
+      header.header {
+        height: 40vh;
+      }
+      h1.titulo-hero {
+        font-size: 60px;
+        text-shadow: 2px 2px #87a352;
+    
+      }
+      .btn-hero {
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      section.container {
+        gap: 5px;
+       
+      }
+      div.card {
+        margin-top: 20px;
+        
+      }
+      div.container-introducao {
+        margin: 20px auto;
+        padding: 25px 0px;
+        
+      }
+      div.conteudo-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      div.conteudo-texto img {
+        max-width: 300px;
+     
+      }
+      .container-personagem {
+        padding: 20px;
+      }
+      .titulo-personagem {
+        font-size: 25px;
+    }
+    .container-personagem p {
+        margin: 20px 0;
+        font-size: 19px;
+        text-align: center;
+    }
+    .container-personagem h2 {
+        font-size: 22px;
+    }
+    .cards-container {
+        background-color: #3d4346;
+        padding: 40px;
+
+      }
+      div.container-classe {
+        padding: 30px 0;
+        gap: 30px;
+       
+      }
+      h1.titulo-container-classe {
+        font-size: 30px;
+    
+      }
+      div.imagem-classe {
+        min-width: 100px;
+        
+      }
+      h1.titulo-classe {
+        font-size: 20px;        
+      }
+      div.info-classe {
+        padding: 5px;
+     
+      }
+      div.info-classe h4 {
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      div.info-classe p {
+        font-size: 15px;
+        text-align: center;
+        margin:5px;
+      }
+      .guerreiro {
+        background-position: top;
+      }
+     
+}

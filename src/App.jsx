@@ -9,7 +9,7 @@ import Personagens from './components/Personagem/Personagens';
 import Regras from './components/Regras/Regras';
 import Mestre from './components/Mestre/Mestre';
 import Footer from './components/Footer/Footer';
-import './responsividade.css'
+import './responsividade.css';
 
 function App() {
 
