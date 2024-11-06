@@ -5,10 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
     padding: 40px;
     background-color: #2a3033;
     border-radius: 20px;
@@ -42,13 +39,8 @@
   }
   
   .card-flip {
-<<<<<<< HEAD
     min-width: 300px;
     min-height: 400px;
-=======
-    width: 300px;
-    height: 400px;
->>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
     perspective: 1000px; /* Necessário para o efeito 3D */
   }
   
@@ -193,10 +185,6 @@
 div.container-classe {
   background-color: #2a3033;
   padding: 40px 0;
-<<<<<<< HEAD
-=======
-  margin-top: 40px;
->>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -225,33 +213,19 @@ div.card-classe {
   min-height: 400px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
   
-<<<<<<< HEAD
 }
 div.imagem-classe {
   min-width: 250px;
-=======
-
-}
-div.imagem-classe {
-  min-width: 150px;
->>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
   
 }
 
 
 div.info-classe {
   padding: 20px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: 200px;
-=======
- display: flex;
- flex-direction: column;
- align-items: center;
-
->>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
 }
 h1.titulo-classe {
   font-size: 30px;
