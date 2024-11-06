@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+/* Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #111219;
+  
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* Container Cards */
+
+
+section.container {
+  display: flex;
+  width: 100%;
+  background-color: #2a3033;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: #f9ffff;
+  font-family: "MedievalSharp", cursive;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+div.card {
+  margin-top: 40px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  
+}
+div.container-img {
+  margin-top: 20px;
+  width: 250px;
+    
+}
+div.container-img img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+h4.titulo-card {
+  text-align: center;
+  font-size: 30px;
+  
+}
+p.info-card {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 17px;
+  height: 70px;
+  width: 250px;
+}
+.btn-card {
+ padding: 10px;
+ font-size: 22px;
+ font-weight: bold;
+ border-radius: 20px;
+ background-image: radial-gradient(#675f6a,  #4c3d50);
+ color: #fff;
+ margin-bottom: 20px;
+ transition: 0.3s ease-in-out;
+}
+.btn-card:hover {
+ background-color: #fff;
+ color: #111219;
+}
+
+
+
+
+
+
+
+
+
+

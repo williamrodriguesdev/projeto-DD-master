@@ -1,0 +1,48 @@
+main.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+
+  div.container-introducao {
+    background-image: url('https://i.pinimg.com/564x/e4/3d/c6/e43dc6f02f6c114cb2a0f48d7bf123a8.jpg');
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 40px;
+    
+  }
+ 
+  
+  div.conteudo-texto img {
+    max-width: 400px;
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+  }
+  h1.titulo-conteudo-texto {
+    font-size: 40px;
+    text-align: center;
+    background-color: #682334;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "MedievalSharp";
+    
+  }
+  div.conteudo-texto p {
+    margin: 40px 20px;
+    font-size: 24px;
+    text-align: justify;
+  
+  }
+  .destaque {
+    font-weight: bold;
+  }
+  
+

@@ -1,0 +1,97 @@
+div.container-mestre {
+    background-image: url('https://i.pinimg.com/564x/e4/3d/c6/e43dc6f02f6c114cb2a0f48d7bf123a8.jpg');
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 40px;
+
+}
+
+div.guia-aventura h1 {
+    font-size: 35px;
+    text-align: center;
+    margin:0 auto 20px auto;
+    color: #fff;
+    width: 80%;
+    background-color: #682e34;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: "MedievalSharp", cursive;
+
+}
+div.guia-aventura h2 {
+    background-color: #682e34;
+    display: inline-block;
+    color: #fff;
+    border-radius:0 20px 20px 0;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-family: "MedievalSharp", cursive;
+
+}
+
+div.guia-aventura span {
+    font-weight: bold;
+}
+div.guia-aventura p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+div.guia-aventura ul {
+    margin: 20px 0;
+}
+div.guia-aventura li {
+    font-size: 20px;
+    
+}
+div.ferramentas-mestre h1 {
+    font-size: 35px;
+    background-color: #682e34;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin:0 auto 20px auto;
+    padding: 5px;
+    width: 80%;
+    font-family: "MedievalSharp", cursive;
+
+
+}
+div.ferramentas-mestre h2 {
+    background-color: #682e34;
+    font-family: "MedievalSharp", cursive;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    margin: 20px 0;
+}
+div.ferramentas-mestre p {
+    font-size: 20px;
+}
+div.ferramentas-mestre a {
+    color: #682e34;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+div.ferramentas-mestre a:hover {
+color: #fff;
+}
+div.ferramentas-mestre img {
+    max-width: 300px;
+    float: right;
+    border-radius: 20px;
+    margin: 10px;
+}
+div.ferramentas-mestre li {
+    margin: 10px 0;
+}
+div.ferramentas-mestre span {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+

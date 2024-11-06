@@ -1,0 +1,61 @@
+
+div.container-regras {
+    width: 90%;
+    margin: 40px auto;
+    background-image: url('https://i.pinimg.com/564x/e4/3d/c6/e43dc6f02f6c114cb2a0f48d7bf123a8.jpg');
+    border-radius: 20px;
+    padding: 40px;
+    
+}
+
+div.container-regras h1 {
+    font-family: "MedievalSharp", cursive;
+    background-color: #682334;
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+}
+div.container-regras p {
+    font-size: 20px;
+}
+div.guia-rapido ul {
+    list-style-type: disc;
+    margin-top: 20px;
+}
+div.guia-rapido h2 {
+    margin-bottom: 10px;
+}
+div.guia-rapido li {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+div.guia-completo {
+    margin-top: 40px;
+}
+div.guia-completo h2 {
+    font-size: 30px;
+    background-color: #682334;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+div.guia-completo p {
+    font-size: 20px;
+    margin: 20px 0;
+    
+}
+div.guia-completo a {
+    
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+div.guia-completo a:hover {
+    color: #fff;
+}
