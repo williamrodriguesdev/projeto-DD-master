@@ -1,5 +1,9 @@
 header.header {
+<<<<<<< HEAD
     height: 100vh;
+=======
+    height: 90vh;
+>>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
     max-width: 100%;
     background-image: url('https://images2.alphacoders.com/129/1296462.jpg');
     background-size: cover;

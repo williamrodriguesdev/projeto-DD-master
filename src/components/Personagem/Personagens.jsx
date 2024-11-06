@@ -133,7 +133,13 @@ const Personagens = () => {
 
           
               <div className="card-classe">
+<<<<<<< HEAD
                   <div className="imagem-classe barbaro"></div>
+=======
+                  <div className="imagem-classe barbaro">
+                    
+                  </div>
+>>>>>>> 4ab1d13a43eb48bd70d12d8c69eade5699a2ee09
                   <div className="info-classe">
                     <h1 className="titulo-classe">Bárbaro</h1>
                     <h4>Características:</h4>
